@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinandan - Backend Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-brand">Abhinandan</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Abhinandan</h1>
+            <p class="hero-subtitle">Backend Developer & Problem Solver</p>
+            <div class="typing-container">
+                <span class="typing-text"></span>
+                <span class="cursor">|</span>
+            </div>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn--primary">View Projects</a>
+                <a href="#contact" class="btn btn--outline">Contact Me</a>
+            </div>
+            <div class="floating-icons">
+                <div class="tech-icon" data-tech="Node.js">N</div>
+                <div class="tech-icon" data-tech="Go">Go</div>
+                <div class="tech-icon" data-tech="TypeScript">TS</div>
+                <div class="tech-icon" data-tech="PostgreSQL">PG</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate Backend Developer with expertise in building scalable server-side applications. Currently pursuing B.Tech in Information Technology at Delhi Technological University, I love solving complex problems and creating efficient solutions.</p>
+                    
+                    <div class="education-card glass-card">
+                        <h3>Education</h3>
+                        <div class="education-info">
+                            <h4>B.TECH (Information Technology)</h4>
+                            <p>Delhi Technological University, New Delhi</p>
+                            <div class="education-details">
+                                <span>GPA: 8.02</span>
+                                <span>2022-2026</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card glass-card">
+                        <h3 class="stat-number" data-target="600">0</h3>
+                        <p>Problems Solved</p>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <h3 class="stat-number" data-target="98.5">0</h3>
+                        <p>JEE Percentile</p>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <h3 class="stat-number" data-target="8.02">0</h3>
+                        <p>Current GPA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item glass-card">
+                    <div class="timeline-date">Sep 2024 - Dec 2024</div>
+                    <div class="timeline-content">
+                        <h3>Backend Developer Intern</h3>
+                        <h4>Horse's Mouth - New Delhi</h4>
+                        <ul>
+                            <li>Developed and maintained backend services using Bun, TypeScript, and Elypse.js</li>
+                            <li>Designed and implemented routing logic for APIs</li>
+                            <li>Conducted thorough unit and integration testing</li>
+                            <li>Improved development pipeline and backend architecture</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card glass-card">
+                    <h3>Custom Web Framework & Proxy Server</h3>
+                    <p>Developed a custom web framework using Node.js with routing, middleware, and session management. Built HTTP proxy server with round-robin algorithm for load balancing.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">HTTP Module</span>
+                        <span class="tech-tag">Custom Framework</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/akmmbh" target="_blank" class="btn btn--sm">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <h3>Video Editor</h3>
+                    <p>Comprehensive video processing application with upload, thumbnail generation, audio extraction, and resizing capabilities.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">FFmpeg</span>
+                        <span class="tech-tag">Clustering</span>
+                        <span class="tech-tag">Job Queues</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/akmmbh" target="_blank" class="btn btn--sm">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <h3>Custom Compiler Frontend</h3>
+                    <p>Complete compiler frontend with Lexer, Parser, and Code Generator for custom programming language.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">C</span>
+                        <span class="tech-tag">NASM Assembly</span>
+                        <span class="tech-tag">Data Structures</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/akmmbh" target="_blank" class="btn btn--sm">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <h3>LRU Cache Implementation</h3>
+                    <p>Efficient LRU cache implementation with O(1) access and removal operations.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Golang</span>
+                        <span class="tech-tag">Doubly Linked List</span>
+                        <span class="tech-tag">Custom Data Structures</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/akmmbh" target="_blank" class="btn btn--sm">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category glass-card">
+                    <h3>Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>C/C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Golang</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript/TypeScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card">
+                    <h3>Frameworks</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Express.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Bun.js/Elysia.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card">
+                    <h3>Databases & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>PostgreSQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Git/Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card glass-card">
+                    <h3>600+</h3>
+                    <p>DSA Problems Solved</p>
+                    <span>Codeforces, Leetcode, CodeChef</span>
+                </div>
+                <div class="achievement-card glass-card">
+                    <h3>98.5%</h3>
+                    <p>JEE MAIN Percentile</p>
+                    <span>Among 1.2M students</span>
+                </div>
+                <div class="achievement-card glass-card">
+                    <h3>1236</h3>
+                    <p>Max Rating on Codeforces</p>
+                    <span>Pupil Rank</span>
+                </div>
+                <div class="achievement-card glass-card">
+                    <h3>1755</h3>
+                    <p>Max Contest Rating</p>
+                    <span>Leetcode Contests</span>
+                </div>
+                <div class="achievement-card glass-card">
+                    <h3>1361</h3>
+                    <p>Leetcode WC 366 Rank</p>
+                    <span>25K+ participants</span>
+                </div>
+                <div class="achievement-card glass-card">
+                    <h3>3⭐</h3>
+                    <p>CodeChef Rating</p>
+                    <span>Competitive Programming</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item glass-card">
+                        <h3>Email</h3>
+                        <p>akmmbhmishra.mishra@gmail.com</p>
+                    </div>
+                    <div class="contact-item glass-card">
+                        <h3>Phone</h3>
+                        <p>+91 8178093963</p>
+                    </div>
+                    <div class="contact-item glass-card">
+                        <h3>Location</h3>
+                        <p>Delhi, India</p>
+                    </div>
+                </div>
+                
+                <form class="contact-form glass-card">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Abhinandan. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/akmmbh" target="_blank" class="social-link">GitHub</a>
+                    <a href="mailto:akmmbhmishra.mishra@gmail.com" class="social-link">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
